@@ -2,7 +2,7 @@ import pandas as pd
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 # Load model and tokenizer
-model_name = "Qwen/Qwen2.5-0.5B-Instruct"
+model_name = "updated_model"
 model = AutoModelForCausalLM.from_pretrained(
     model_name,
     torch_dtype="auto",
